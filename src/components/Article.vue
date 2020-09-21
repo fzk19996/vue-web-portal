@@ -31,6 +31,7 @@
 		methods : {
 			getArticle : function(){
 				var _this = this;
+				console.log("开始请求文章")
 				this.$http.get('/src/data/article.data').then(function(res){
 					_this.article = res.data;
 					console.log(_this.article.abstractContent);

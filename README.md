@@ -20,3 +20,4 @@ npm run dev
 # build for production with minification
 npm run build
 ```
+npm i vue-template-compiler@2.6.8 --save 

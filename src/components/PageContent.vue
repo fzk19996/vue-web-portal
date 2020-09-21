@@ -14,11 +14,11 @@
 				<div class="main">
 					<div class="focusBox2">
 						<ul class="pic">
-							<li v-for="index in 6"><a href=""><img :src="tzgg[index+1] && tzgg[index+1].pic"/></a></li>
+							<li v-for="index in 3"><a><img :src="tzgg[index-1] && tzgg[index-1].pic"/></a></li>
 						</ul>
 						<div class="txt-bg"></div>
 						<ul class="num">
-							<li v-for="index in 6"><a></a><span></span></li>
+							<li v-for="index in 3"><a></a><span></span></li>
 						</ul>
 					</div>
 					<div class="news">
@@ -27,7 +27,7 @@
 						</div>
 						<div class="news_text">
 							<p>{{tzgg[0] && tzgg[0].abstractContent}}
-							<span class="xiangqing fr">【<a href="/index/catetory/aaa/article/bbb">详情</a>】</span>
+							<span class="xiangqing fr">【<a :href="'/article/'+tzgg[0].articleId">详情</a>】</span>
 							</p>
 						</div>
 					</div>
@@ -41,35 +41,14 @@
 			<div class="right fr">
 				<div class="title">
 					<div class="title_name">
-						<h3>用户登录</h3>
+						<h3>测试平台</h3>
 					</div>
 				</div>
 				<div class="login-info">
 					<div class="login-form container">
 						<form action="login" name="loginForm" id="loginForm" role="form">
-							<label for="userName">用户账户</label>
-							<div class="inputuser">
-								<input type="text" id="userName" name="account" placeholder="请输入手机号"></br>
-							</div>
-							<label for="userPassword">输入密码</label>
-							<div class="inputpwd">
-								<input type="password" id="userPassword" name="password" placeholder="请输入密码">
-							</div>
-							<div class="remember">
-								<div class="rememberme fl">
-									<input class="fl" id="rememberMe" type="checkbox" value="true" name="rememberMe">
-									<label class="fl" for="rememberMe">下次自动登录</label>
-								</div>
-								<div class="forget fr">
-									<a href="#">忘记密码</a>
-								</div>
-							</div>
 							<div class="buttons fl">
 								<button class="login fl" type="submit"><span class="loginfor7">登 录</span><span class="arrow fr"><img src="/static/img/login_icon.png"></span></button>
-								<button class="prologin">专家登录<span class="arrow fr"><img src="/static/img/login_icon.png"></span></button>
-							</div>
-							<div class="regist fr">
-								<span>没有账号？<a href="">点击注册</a></span>
 							</div>
 						</form>
 					</div>
@@ -90,21 +69,19 @@
 						<div class="doc">
 							<a class="docbtn fl" href="#">
 								<div class="A"></div>
-								<h4>支撑材料</h4>
+								<h4>文档1</h4>
 							</a>
 							<a class="docbtn fr" href="#">
 								<div class="B"></div>
-								<h4>申报书</h4>
+								<h4>文档2</h4>
 							</a>
 						</div>
 					</div>
 					<div class="txt fr">
 						<p>
-							首都经济贸易大学（Capital University of Economics and Business）简称“首都经贸”，坐	落于中国北京，是一所拥有经济学、管理学、法学、文学、理学和工学等六大学科，以经济学	 、管理学为重要特色和突出优势的财经类大学。
-							学校创建于1956年，是由原北京经济学院和原北京财贸学院于1995年6月合并、组建的北京市属重点大学。
+							北京航空航天大学航空心理与行为研究中心是一个集基础研究和应用开发为一体的研究机构。研究中心拥有一支结构合理的研究团队，团队成员学科背景包括心理学、认知神经科学、生理学、人工智能、人机与环境工程等。
 						</p>
 						<p>
-							截止2015年4月，学校共设21个教学单位，41个本科专业；学校在籍学生18664人，其中本科生9764人，硕士研究生2613人，博士研究生293人；
 							<span class="xiangqing fr">【<a href="#">详情</a>】</span>
 						</p>
 					</div>
@@ -132,36 +109,6 @@
 				
 			</div>
 		</div>
-		<div class="contentE container">
-			<div class="title">
-				<div class="title_name">
-					<h3>校企合作</h3>
-				</div>
-				<div class="more"><a href="">MORE+</a></div>
-			</div>
-			<div class="main">
-				<div class="cop cop1">
-					<img src="/static/img/cop.png" />
-					<span class="pic_tit"><a href="">首都经济贸易大学</a></span>
-				</div>
-				<div class="cop cop2">
-					<img src="/static/img/cop.png" />
-					<span class="pic_tit"><a href="">首都经济贸易大学</a></span>
-				</div>
-				<div class="cop cop3">
-					<img src="/static/img/cop.png" />
-					<span class="pic_tit"><a href="">首都经济贸易大学</a></span>
-				</div>
-				<div class="cop cop4">
-					<img src="/static/img/cop.png" />
-					<span class="pic_tit"><a href="">首都经济贸易大学</a></span>
-				</div>
-				<div class="cop cop5">
-					<img src="/static/img/cop.png" />
-					<span class="pic_tit"><a href="">首都经济贸易大学</a></span>
-				</div>
-			</div>
-		</div>
 	</div>
 </template>
 <script>
@@ -178,6 +125,7 @@
 				var _this = this;
 				this.$http.get('/src/data/catetory.data').then(function(res){
 					_this.tzgg = res.data;
+					console.log(_this.tzgg)
 				}).catch(function(err){
 					console.log('获取通知公告数据出错');
 				})
