@@ -11,23 +11,24 @@
 					</div>
 					<div class="more"><a href="">MORE+</a></div>
 				</div>
+				<template v-if="tzgg.length>0">
 				<div class="main">
 					<div class="focusBox2">
 						<ul class="pic">
-							<li v-for="index in 3"><a><img :src="tzgg[index-1] && tzgg[index-1].pic"/></a></li>
+							<li v-for="index in tzgg.length"><a><img :src="tzgg[index] && tzgg[index].pic"/></a></li>
 						</ul>
 						<div class="txt-bg"></div>
 						<ul class="num">
-							<li v-for="index in 3"><a></a><span></span></li>
+							<li v-for="index in tzgg.length"><a></a><span></span></li>
 						</ul>
 					</div>
 					<div class="news">
 						<div class="sec_title">
 							<h4>{{tzgg[0] && tzgg[0].title}}</h4>
 						</div>
-						<div class="news_text">
+							<div class="news_text">
 							<p>{{tzgg[0] && tzgg[0].abstractContent}}
-							<span class="xiangqing fr">【<a :href="'/article/'+tzgg[0].articleId">详情</a>】</span>
+							<span class="xiangqing fr">【<a :href="'/index/catetory/1/article/'+tzgg[0].articleId">详情</a>】</span>
 							</p>
 						</div>
 					</div>
@@ -37,6 +38,7 @@
 						</ul>
 					</div>
 				</div>
+				</template>
 			</div>
 			<div class="right fr">
 				<div class="title">
@@ -113,6 +115,7 @@
 </template>
 <script>
 	import Carousel from './Carousel.vue'
+	import qs from 'qs'
 	
 	export default{
 		data : function(){
@@ -123,12 +126,22 @@
 		methods: {
 			getTZGG : function(){
 				var _this = this;
-				this.$http.get('/src/data/catetory.data').then(function(res){
-					_this.tzgg = res.data;
+				this.$http.post('http://127.0.0.1:8081/article/queryArticleAbstractList', qs.stringify({
+					"index":0,
+					"size":6
+				})).then(function(res){
+					// console.log(res)
+					_this.tzgg = res.data.data;
 					console.log(_this.tzgg)
 				}).catch(function(err){
 					console.log('获取通知公告数据出错');
 				})
+				// this.$http.get('/src/data/catetory.data').then(function(res){
+				// 	_this.tzgg = res.data;
+				// 	console.log(_this.tzgg)
+				// }).catch(function(err){
+				// 	console.log('获取通知公告数据出错');
+				// })
 			}
 		},
 		created : function(){

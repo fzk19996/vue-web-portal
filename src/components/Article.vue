@@ -32,12 +32,20 @@
 			getArticle : function(){
 				var _this = this;
 				console.log("开始请求文章")
-				this.$http.get('/src/data/article.data').then(function(res){
-					_this.article = res.data;
+				console.log(this.$route.params.articleId)
+				var article_id = this.$route.params.articleId
+				this.$http.get('http://127.0.0.1:8081/article/queryArticleById/'+article_id ).then(function(res){
+					_this.article = res.data.data;
 					console.log(_this.article.abstractContent);
 				}).catch(function(err){
 					console.log('请求文章出错');
 				})
+				// this.$http.get('/src/data/article.data').then(function(res){
+				// 	_this.article = res.data;
+				// 	console.log(_this.article.abstractContent);
+				// }).catch(function(err){
+				// 	console.log('请求文章出错');
+				// })
 			}
 		},
 		mounted : function(){
