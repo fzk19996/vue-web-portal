@@ -3,8 +3,8 @@
 		<footer class="foot container" >
 			<div class="footermain container">
 				<div class="left fl">
-					<p>Copright@&nbsp;2020&nbsp;<a href="">北京航空航天大学心理学院</a>&emsp;版权所有&emsp;</p>
-					<p><a href="">联系我们</a>&emsp;|&emsp;<a href="">邓丽方教授邮箱</a>&emsp; lifangdeng@buaa.edu.cn</p>
+					<p>Copright@&nbsp;2020&nbsp;<a href="">北航心理测量与干预课题组</a>&emsp;版权所有&emsp;</p>
+					<p><a href="">联系我们</a>&emsp;|&emsp;<a href="">邮箱</a>&emsp; lifangdeng@buaa.edu.cn</p>
 				</div>
 				<div class="right fr">
 					<p class="fr">技术支持：&emsp;<a href="">北京航空航天大学</a></p>

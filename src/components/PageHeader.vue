@@ -19,7 +19,7 @@
 	};
 </script>
 <style scoped>
-	header{width:1200px;height:145px;background:url(/static/img/header_bg.png)  no-repeat;position:relative;}
+	header{width:1200px;height:145px;background:url(/static/img/抬头.jpg)  no-repeat;position:relative;}
 	/* header{width:1200px;height:145px;background:#40E0D0;position:relative;} */
 	header .backsite{height:18px;margin-top: 40px;margin-right:22px;}
 	header .backsite a{ padding:0 8px;font-size: 13pxs;color: #666666;}

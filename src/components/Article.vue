@@ -3,9 +3,9 @@
 		<leftNav></leftNav>
 		<div class="contentArt fr">
 			<div class="catetorytitle">
-				<h2 class="fl">校园新闻</h2>
+				<!-- <h2 class="fl">校园新闻</h2> -->
 				<div class="breadcrumb fr">
-					<a href="">首页</a>&gt;<a href="">中心概况</a>&gt;<a href="">校园新闻</a>&gt;<a href="">首都经贸</a>
+					<a href="">首页</a>&gt;<a href="">中心概况</a>
 				</div>
 			</div>
 			<article>
@@ -34,7 +34,7 @@
 				console.log("开始请求文章")
 				console.log(this.$route.params.articleId)
 				var article_id = this.$route.params.articleId
-				this.$http.get('http://127.0.0.1:8081/article/queryArticleById/'+article_id ).then(function(res){
+				this.$http.get('http://123.57.178.92/article/queryArticleById/'+article_id ).then(function(res){
 					_this.article = res.data.data;
 					console.log(_this.article.abstractContent);
 				}).catch(function(err){

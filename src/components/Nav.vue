@@ -1,6 +1,6 @@
 <template>
 	<div id="pageNav">
-		<nav>
+		<!-- <nav>
 			<ul>
 				<li><router-link to="/index">首页</router-link><span></span></li>
 				<li v-for="(item,index) in navData">
@@ -13,7 +13,7 @@
 				</li>
 				
 			</ul>
-		</nav>
+		</nav> -->
 	</div>
 </template>
 <script>

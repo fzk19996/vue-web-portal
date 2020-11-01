@@ -1,0 +1,393 @@
+
+> vue-web@1.0.0 dev /home/fzk/code/vue-web-portal
+> cross-env NODE_ENV=development webpack-dev-server --open --hot
+
+Project is running at [1m[34mhttp://localhost:8080/[39m[22m
+webpack output is served from [1m[34m/dist/[39m[22m
+404s will fallback to [1m[34m/index.html[39m[22m
+Unable to open browser. If you are running in a headless environment, please do not use the open flag.
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+Hash: [1mb03e57a1cee87a722b62[39m[22m
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m6089[39m[22mms
+                                [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[32md2f69a92faa6fe990d2e613c358be705.woff[39m[22m     8 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+ [1m[32mb02bdc1b846fd65473922f5f62832108.ttf[39m[22m  13.2 kB        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+                             [1m[33mbuild.js[39m[22m  [1m[33m6.69 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+   [0] [1m./node_modules/vue/dist/vue.esm.js[39m[22m 325 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [14] [1m(webpack)/hot/log.js[39m[22m 1.04 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [36] [1m(webpack)/hot/emitter.js[39m[22m 77 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [53] [1m./src/App.vue[39m[22m 1.81 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [67] [1mmulti (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./src/main.js[39m[22m 52 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [68] [1m(webpack)-dev-server/client?http://localhost:8080[39m[22m 7.93 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [69] [1m./node_modules/url/url.js[39m[22m 23.3 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [76] [1m./node_modules/strip-ansi/index.js[39m[22m 161 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [78] [1m./node_modules/loglevel/lib/loglevel.js[39m[22m 7.86 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [79] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.08 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [81] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.67 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [86] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [88] [1m(webpack)/hot/dev-server.js[39m[22m 1.61 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [89] [1m(webpack)/hot/log-apply-result.js[39m[22m 1.31 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [90] [1m./src/main.js[39m[22m 1.14 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    + 186 hidden modules
+
+[1m[31mERROR in ./src/main.js
+Module not found: Error: Can't resolve 'Vue-router' in '/home/fzk/code/vue-web-portal/src'
+ @ ./src/main.js 2:0-35
+ @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./src/main.js[39m[22m
+Hash: [1mb03e57a1cee87a722b62[39m[22m
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m44[39m[22mms
+ 3 assets
+  [86] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+    + 200 hidden modules
+
+[1m[31mERROR in ./src/main.js
+Module not found: Error: Can't resolve 'Vue-router' in '/home/fzk/code/vue-web-portal/src'
+ @ ./src/main.js 2:0-35
+ @ multi (webpack)-dev-server/client?http://localhost:8080 webpack/hot/dev-server ./src/main.js[39m[22m
+
+> vue-web@1.0.0 dev /home/fzk/code/vue-web-portal
+> cross-env NODE_ENV=development webpack-dev-server --open --hot --host 0.0.0.0
+
+Project is running at [1m[34mhttp://0.0.0.0:8080/[39m[22m
+webpack output is served from [1m[34m/dist/[39m[22m
+404s will fallback to [1m[34m/index.html[39m[22m
+Unable to open browser. If you are running in a headless environment, please do not use the open flag.
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+
+> vue-web@1.0.0 dev /home/fzk/code/vue-web-portal
+> cross-env NODE_ENV=development webpack-dev-server --open --hot --host 0.0.0.0
+
+Project is running at [1m[34mhttp://0.0.0.0:8080/[39m[22m
+webpack output is served from [1m[34m/dist/[39m[22m
+404s will fallback to [1m[34m/index.html[39m[22m
+Unable to open browser. If you are running in a headless environment, please do not use the open flag.
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+
+> vue-web@1.0.0 dev /home/fzk/code/vue-web-portal
+> cross-env NODE_ENV=development webpack-dev-server --open --hot --host 0.0.0.0
+
+Project is running at [1m[34mhttp://0.0.0.0:8080/[39m[22m
+webpack output is served from [1m[34m/dist/[39m[22m
+404s will fallback to [1m[34m/index.html[39m[22m
+Unable to open browser. If you are running in a headless environment, please do not use the open flag.
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+
+> vue-web@1.0.0 dev /home/fzk/code/vue-web-portal
+> cross-env NODE_ENV=development webpack-dev-server --open --hot --host 0.0.0.0
+
+Project is running at [1m[34mhttp://0.0.0.0:8080/[39m[22m
+webpack output is served from [1m[34m/dist/[39m[22m
+404s will fallback to [1m[34m/index.html[39m[22m
+Unable to open browser. If you are running in a headless environment, please do not use the open flag.
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.
+Hash: [1m1b22cdec55a60d701243[39m[22m
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m426[39m[22mms
+                               [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                            [1m[33mbuild.js[39m[22m   [1m[33m6.88 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+[1m[32m0.cd859eb875421350f37d.hot-update.js[39m[22m     87 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32mcd859eb875421350f37d.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+ + 2 hidden assets
+  [28] [1m./node_modules/css-loader?sourceMap!./node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-234cf3ea","scoped":true,"hasInlineConfig":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/PageContent.vue[39m[22m 29.8 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [59] [1m./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/PageContent.vue[39m[22m 1.59 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [86] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [176] [1m./src/components/PageContent.vue[39m[22m 1.89 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [184] [1m./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-234cf3ea","hasScoped":true,"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/PageContent.vue[39m[22m 232 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+    + 197 hidden modules
+
+[1m[31mERROR in ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-234cf3ea","hasScoped":true,"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/PageContent.vue
+(Emitted value instead of an instance of Error) 
+  Error compiling template:
+  
+  <div id="content" class="content">
+  	<div class="contentA container">
+  	<carousel></carousel>	
+  	</div>
+  	<div class="contentB container">
+  		<div class="left fl">
+  			<div class="title">
+  				<div class="title_name">
+  					<h3>通知公告</h3>
+  				</div>
+  				<div class="more"><a href="">MORE+</a></div>
+  			</div>
+  			<template v-if="tzgg.length>0">
+  			<div class="main">
+  				<div class="focusBox2">
+  					<ul class="pic">
+  						<li v-for="index in tzgg.length"><a><img :src="tzgg[index] && tzgg[index].pic"/></a></li>
+  					</ul>
+  					<div class="txt-bg"></div>
+  					<ul class="num">
+  						<li v-for="index in tzgg.length"><a></a><span></span></li>
+  					</ul>
+  				</div>
+  				<div class="news">
+  					<div class="sec_title">
+  						<h4>{{tzgg[0] && tzgg[0].title}}</h4>
+  					</div>
+  						<div class="news_text">
+  						<p>{{tzgg[0] && tzgg[0].abstractContent}}
+  						<span class="xiangqing fr">【<a :href="'/index/catetory/1/article/'+tzgg[0].articleId">详情</a>】</span>
+  						</p>
+  					</div>
+  				</div>
+  				<div class="news_list">
+  					<ul>
+  						<li v-for="(item,index) in tzgg" v-if="index > 0 && index < 7">&gt;<a :href="`/index/catetory/${item.catetoryId}/article/${item.articleId}`">{{item.title}}</a><span>[{{item.publicTime | normalTime}}]</span></li>
+  					</ul>
+  				</div>
+  			</div>
+  			</template>
+  		</div>
+  		<div class="right fr">
+  			<div class="title">
+  				<div class="title_name">
+  					<h3>测试平台</h3>
+  				</div>
+  			</div>
+  			<div class="login-info">
+  				<div class="login-form container">
+  					<form action="login" name="loginForm" id="loginForm" role="form">
+  						<div class="buttons fl">
+  							<button class="login fl" type="submit"><span class="loginfor7">登 录</span><span class="arrow fr"><img src="/static/img/login_icon.png"></span></button>
+  						</div>
+  					</form>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="contentC container">
+  		<div class="left fl">
+  			<div class="title">
+  				<div class="title_name">
+  					<h3>中心介绍</h3>
+  				</div>
+  				<div class="more"><a href="">MORE+</a></div>
+  			</div>
+  			<div class="main">
+  				<div class="pic fl">
+  					<a href=""><img src="/static/img/pic.png"></a>
+  					<div class="doc">
+  						<a class="docbtn fl" href="#">
+  							<div class="A"></div>
+  							<h4>文档1</h4>
+  						</a>
+  						<a class="docbtn fr" href="#">
+  							<div class="B"></div>
+  							<h4>文档2</h4>
+  						</a>
+  					</div>
+  				</div>
+  				<div class="txt fr">
+  					<p>
+  						北京航空航天大学航空心理与行为研究中心是一个集基础研究和应用开发为一体的研究机构。研究中心拥有一支结构合理的研究团队，团队成员学科背景包括心理学、认知神经科学、生理学、人工智能、人机与环境工程等。
+  					</p>
+  					<p>
+  						<span class="xiangqing fr">【<a :href="'/index/catetory/1/article/12'>详情</a>】</span>
+  					</p>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="right fr">
+  			<div class="title">
+  				<div class="title_name">
+  					<h3>中心视频</h3>
+  				</div>
+  			</div>
+  			<div class="videoparent">
+  				<div id="videoPlayer"></div>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="contentD container">
+  		<div class="title">
+  			<div class="title_name">
+  				<h3>成果展示</h3>
+  			</div>
+  			<div class="more"><a href="">MORE+</a></div>
+  		</div>
+  		<div class="main">
+  			
+  		</div>
+  	</div>
+  </div>
+  
+  - tag <span> has no matching end tag.
+  - tag <p> has no matching end tag.
+  - tag <div> has no matching end tag.
+  - tag <div> has no matching end tag.
+
+ @ ./src/components/PageContent.vue 11:0-251
+ @ ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/Index.vue
+ @ ./src/components/Index.vue
+ @ ./src/router-config.js
+ @ ./src/main.js
+ @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 webpack/hot/dev-server ./src/main.js[39m[22m
+Hash: [1mfb1917ece92e276f00bb[39m[22m
+Version: webpack [1m3.12.0[39m[22m
+Time: [1m344[39m[22mms
+                               [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+                            [1m[33mbuild.js[39m[22m   [1m[33m6.88 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  main
+[1m[32m0.1b22cdec55a60d701243.hot-update.js[39m[22m   85.4 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         main
+[1m[32m1b22cdec55a60d701243.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+ + 2 hidden assets
+  [28] [1m./node_modules/css-loader?sourceMap!./node_modules/vue-loader/lib/style-compiler?{"vue":true,"id":"data-v-234cf3ea","scoped":true,"hasInlineConfig":false}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./src/components/PageContent.vue[39m[22m 29.8 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [59] [1m./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/PageContent.vue[39m[22m 1.59 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+  [86] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [176] [1m./src/components/PageContent.vue[39m[22m 1.89 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [184] [1m./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-234cf3ea","hasScoped":true,"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/PageContent.vue[39m[22m 232 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [1 error][39m[22m
+    + 197 hidden modules
+
+[1m[31mERROR in ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-234cf3ea","hasScoped":true,"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/PageContent.vue
+(Emitted value instead of an instance of Error) 
+  Error compiling template:
+  
+  <div id="content" class="content">
+  	<div class="contentA container">
+  	<carousel></carousel>	
+  	</div>
+  	<div class="contentB container">
+  		<div class="left fl">
+  			<div class="title">
+  				<div class="title_name">
+  					<h3>通知公告</h3>
+  				</div>
+  				<div class="more"><a href="">MORE+</a></div>
+  			</div>
+  			<template v-if="tzgg.length>0">
+  			<div class="main">
+  				<div class="focusBox2">
+  					<ul class="pic">
+  						<li v-for="index in tzgg.length"><a><img :src="tzgg[index] && tzgg[index].pic"/></a></li>
+  					</ul>
+  					<div class="txt-bg"></div>
+  					<ul class="num">
+  						<li v-for="index in tzgg.length"><a></a><span></span></li>
+  					</ul>
+  				</div>
+  				<div class="news">
+  					<div class="sec_title">
+  						<h4>{{tzgg[0] && tzgg[0].title}}</h4>
+  					</div>
+  						<div class="news_text">
+  						<p>{{tzgg[0] && tzgg[0].abstractContent}}
+  						<span class="xiangqing fr">【<a :href="'/index/catetory/1/article/'+tzgg[0].articleId">详情</a>】</span>
+  						</p>
+  					</div>
+  				</div>
+  				<div class="news_list">
+  					<ul>
+  						<li v-for="(item,index) in tzgg" v-if="index > 0 && index < 7">&gt;<a :href="`/index/catetory/${item.catetoryId}/article/${item.articleId}`">{{item.title}}</a><span>[{{item.publicTime | normalTime}}]</span></li>
+  					</ul>
+  				</div>
+  			</div>
+  			</template>
+  		</div>
+  		<div class="right fr">
+  			<div class="title">
+  				<div class="title_name">
+  					<h3>测试平台</h3>
+  				</div>
+  			</div>
+  			<div class="login-info">
+  				<div class="login-form container">
+  					<form action="login" name="loginForm" id="loginForm" role="form">
+  						<div class="buttons fl">
+  							<button class="login fl" type="submit"><span class="loginfor7">登 录</span><span class="arrow fr"><img src="/static/img/login_icon.png"></span></button>
+  						</div>
+  					</form>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="contentC container">
+  		<div class="left fl">
+  			<div class="title">
+  				<div class="title_name">
+  					<h3>中心介绍</h3>
+  				</div>
+  				<div class="more"><a href="">MORE+</a></div>
+  			</div>
+  			<div class="main">
+  				<div class="pic fl">
+  					<a href=""><img src="/static/img/pic.png"></a>
+  					<div class="doc">
+  						<a class="docbtn fl" href="#">
+  							<div class="A"></div>
+  							<h4>文档1</h4>
+  						</a>
+  						<a class="docbtn fr" href="#">
+  							<div class="B"></div>
+  							<h4>文档2</h4>
+  						</a>
+  					</div>
+  				</div>
+  				<div class="txt fr">
+  					<p>
+  						北京航空航天大学航空心理与行为研究中心是一个集基础研究和应用开发为一体的研究机构。研究中心拥有一支结构合理的研究团队，团队成员学科背景包括心理学、认知神经科学、生理学、人工智能、人机与环境工程等。
+  					</p>
+  					<p>
+  						<span class="xiangqing fr">【<a :href="'/index/catetory/1/article/12'“>详情</a>】</span>
+  					</p>
+  				</div>
+  			</div>
+  		</div>
+  		<div class="right fr">
+  			<div class="title">
+  				<div class="title_name">
+  					<h3>中心视频</h3>
+  				</div>
+  			</div>
+  			<div class="videoparent">
+  				<div id="videoPlayer"></div>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="contentD container">
+  		<div class="title">
+  			<div class="title_name">
+  				<h3>成果展示</h3>
+  			</div>
+  			<div class="more"><a href="">MORE+</a></div>
+  		</div>
+  		<div class="main">
+  			
+  		</div>
+  	</div>
+  </div>
+  
+  - tag <span> has no matching end tag.
+  - tag <p> has no matching end tag.
+  - tag <div> has no matching end tag.
+  - tag <div> has no matching end tag.
+
+ @ ./src/components/PageContent.vue 11:0-251
+ @ ./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/Index.vue
+ @ ./src/components/Index.vue
+ @ ./src/router-config.js
+ @ ./src/main.js
+ @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 webpack/hot/dev-server ./src/main.js[39m[22m
+Exception on "GET /sockjs-node/info?t=1601258607381" in filter "info":
+Error [ERR_STREAM_WRITE_AFTER_END]: write after end
+    at writeAfterEnd (_stream_writable.js:266:14)
+    at Socket.Writable.write (_stream_writable.js:315:5)
+    at Socket.Writable.end (_stream_writable.js:585:10)
+    at Socket.end (net.js:588:31)
+    at App.exports.GenericApp.GenericApp.handle_error (/home/fzk/code/vue-web-portal/node_modules/sockjs/lib/webjs.js:152:15)
+    at execute_request (/home/fzk/code/vue-web-portal/node_modules/sockjs/lib/webjs.js:36:28)
+    at IncomingMessage.req.next_filter (/home/fzk/code/vue-web-portal/node_modules/sockjs/lib/webjs.js:105:18)
+    at Listener.webjs_handler (/home/fzk/code/vue-web-portal/node_modules/sockjs/lib/webjs.js:107:13)
+    at Listener.handler (/home/fzk/code/vue-web-portal/node_modules/sockjs/lib/sockjs.js:150:12)
+    at Listener.handler (/home/fzk/code/vue-web-portal/node_modules/sockjs/lib/sockjs.js:6:59)
+
+> vue-web@1.0.0 dev /home/fzk/code/vue-web-portal
+> cross-env NODE_ENV=development webpack-dev-server --open --hot --host 0.0.0.0
+
+Project is running at [1m[34mhttp://0.0.0.0:8080/[39m[22m
+webpack output is served from [1m[34m/dist/[39m[22m
+404s will fallback to [1m[34m/index.html[39m[22m
+Unable to open browser. If you are running in a headless environment, please do not use the open flag.
+{ parser: "babylon" } is deprecated; we now treat it as { parser: "babel" }.

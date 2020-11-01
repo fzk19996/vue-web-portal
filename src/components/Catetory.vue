@@ -3,7 +3,7 @@
 		<leftNav></leftNav>	
 		<div class="contentLi fr">
 			<div class="catetorytitle">
-				<h2 class="fl">校园新闻</h2>
+				<!-- <h2 class="fl">校园新闻</h2> -->
 				<div class="breadcrumb fr">
 					<a href="">首页</a>&gt;<a href="">中心概况</a>&gt;<a href="">校园新闻</a>
 				</div>

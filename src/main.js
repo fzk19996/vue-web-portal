@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import VueRouter from 'Vue-router'
+import VueRouter from 'vue-router'
 import axios from 'axios'
 
 import $ from './assets/jquery-vendor.js'

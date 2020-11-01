@@ -43,14 +43,14 @@
 			<div class="right fr">
 				<div class="title">
 					<div class="title_name">
-						<h3>测试平台</h3>
+						<h3>心理测试平台</h3>
 					</div>
 				</div>
 				<div class="login-info">
 					<div class="login-form container">
-						<form action="login" name="loginForm" id="loginForm" role="form">
+						<form action="http://123.57.178.92:8090/" name="loginForm" id="loginForm" role="form">
 							<div class="buttons fl">
-								<button class="login fl" type="submit"><span class="loginfor7">登 录</span><span class="arrow fr"><img src="/static/img/login_icon.png"></span></button>
+								<button class="login fl" type="submit" ><span class="loginfor7">登 录</span><span class="arrow fr"><img src="/static/img/login_icon.png"></span></button>
 							</div>
 						</form>
 					</div>
@@ -84,7 +84,7 @@
 							北京航空航天大学航空心理与行为研究中心是一个集基础研究和应用开发为一体的研究机构。研究中心拥有一支结构合理的研究团队，团队成员学科背景包括心理学、认知神经科学、生理学、人工智能、人机与环境工程等。
 						</p>
 						<p>
-							<span class="xiangqing fr">【<a href="#">详情</a>】</span>
+							<span class="xiangqing fr">【<a :href="'/index/catetory/1/article/12'">详情</a>】</span>
 						</p>
 					</div>
 				</div>
@@ -92,12 +92,21 @@
 			<div class="right fr">
 				<div class="title">
 					<div class="title_name">
-						<h3>中心视频</h3>
+						<h3>心理调适平台</h3>
 					</div>
 				</div>
-				<div class="videoparent">
-					<div id="videoPlayer"></div>
+				<div class="login-info">
+					<div class="login-form container">
+						<form action="http://123.57.178.92:8090/" name="loginForm" id="loginForm" role="form">
+							<div class="buttons fl">
+								<button class="login fl" type="submit" ><span class="loginfor7">登 录</span><span class="arrow fr"><img src="/static/img/login_icon.png"></span></button>
+							</div>
+						</form>
+					</div>
 				</div>
+				<!-- <div class="videoparent">
+					<div id="videoPlayer"></div>
+				</div> -->
 			</div>
 		</div>
 		<div class="contentD container">
@@ -126,7 +135,7 @@
 		methods: {
 			getTZGG : function(){
 				var _this = this;
-				this.$http.post('http://127.0.0.1:8081/article/queryArticleAbstractList', qs.stringify({
+				this.$http.post('http://123.57.178.92/article/queryArticleAbstractList', qs.stringify({
 					"index":0,
 					"size":6
 				})).then(function(res){
